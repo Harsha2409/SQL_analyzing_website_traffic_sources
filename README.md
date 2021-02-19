@@ -2,3 +2,4 @@
 
 ### This repo includes practice sql queries to perform website traffic analysis for a newly launched eCommerce company
 ----------------------
+Schema:
