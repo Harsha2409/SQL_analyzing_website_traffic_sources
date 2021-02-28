@@ -9,4 +9,4 @@ FROM website_sessions AS ws
 		ON o.website_session_id = ws.website_session_id
 WHERE ws.created_at < '2012-04-12'
 	AND utm_source = 'gsearch'
-    AND utm_campaign = 'nonbrand'
+    AND utm_campaign = 'nonbrand';
