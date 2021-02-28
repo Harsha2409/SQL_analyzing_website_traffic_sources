@@ -1,4 +1,4 @@
----
+``` sql
 SELECT
 	ws.utm_content,
     COUNT(DISTINCT ws.website_session_id) AS sessions,
@@ -9,6 +9,6 @@ FROM website_sessions AS ws
 		ON o.website_session_id = ws.website_session_id
 GROUP BY 1
 ORDER BY 4 DESC;
----
+```
 
 ![](https://github.com/Harsha2409/SQL_analyzing_website_traffic_sources/blob/main/Analyzing%20Top%20Traffic%20Sources/result.PNG)
