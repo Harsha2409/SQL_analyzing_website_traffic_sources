@@ -1,4 +1,4 @@
----sql
+--- sql
 SELECT
 	ws.utm_content,
     COUNT(DISTINCT ws.website_session_id) AS sessions,
